@@ -40,13 +40,13 @@ const Sidebar = () => {
                   <li>
                     <Nav.Link href="#" className="d-flex align-items-center">
                       <HouseDoorFill className="me-2 text-white" />
-                      <h5 class="m-2 text-white">Home</h5>
+                      <h5 className="m-2 text-white">Home</h5>
                     </Nav.Link>
                   </li>
                   <li>
                     <Nav.Link href="#" className="d-flex align-items-center">
                       <BookFill className="me-2 text-white" />
-                      <h5 class="m-2 text-white">Your Library</h5>
+                      <h5 className="m-2 text-white">Your Library</h5>
                     </Nav.Link>
                   </li>
                   <li>

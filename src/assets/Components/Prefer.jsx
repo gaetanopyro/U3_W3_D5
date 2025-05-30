@@ -9,7 +9,7 @@ const Prefer = () => {
 
   return (
     <div>
-      <h2 class="m-2 text-white">Results</h2>
+      <h2 className="m-2 text-white">Results</h2>
       <div className="d-flex flex-wrap">
         {songs.map((song) => (
           <div key={song.id} className="m-2" style={{ cursor: "pointer", width: "200px" }} onClick={() => dispatch(selectSong(song))}>
