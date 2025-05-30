@@ -14,8 +14,8 @@ const Prefer = () => {
         {songs.map((song) => (
           <div key={song.id} className="m-2" style={{ cursor: "pointer", width: "200px" }} onClick={() => dispatch(selectSong(song))}>
             <img src={song.album.cover_medium} alt={song.title} width="100%" />
-            <div>{song.title}</div>
-            <div>{song.artist.name}</div>
+            <div className=" text-white">{song.title}</div>
+            <div className=" text-white">{song.artist.name}</div>
             <button
               onClick={(e) => {
                 e.stopPropagation();
